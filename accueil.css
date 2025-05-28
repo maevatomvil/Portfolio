@@ -1,0 +1,17 @@
+.presentation {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+.bienvenue {
+    font-size: 80px;
+    width: 10em;
+}
+
+.prenom {
+    font-size: 200px;
+    color:#7b2cbf;
+}
