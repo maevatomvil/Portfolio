@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content-figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.content-figure figure {
+    text-align: center;
+    margin: 0;
+}
+
+.content-figure img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.content-figure figure figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-right: 20%;
+    margin-left: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.content-text {
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.margin_page {
+    padding-top: 40px;
+    width: 100%;
+}

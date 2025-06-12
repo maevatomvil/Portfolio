@@ -54,7 +54,7 @@ body {
 }
 
 .content img {
-    width: 50%;
+    width: 500px;
     background-color: #fff;
 }
 
@@ -95,7 +95,7 @@ body {
     width: 100%;
 }
 
-.content:nth-child(2n) {
+.content:nth-child(3n) {
     flex-direction: row-reverse;
 }
 
@@ -110,9 +110,6 @@ body {
 .content-text {
     padding: 1em;
     flex: 1;
-}
-.content:nth-child(even) {
-    flex-direction: row-reverse;
 }
 
 #sae34 {

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 2 - SAÉ1.01-02-06</title>
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="sae126.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="image">
+                <img src="images/nom.svg" id="icon">
+            </div>
+            <ul class="list">
+                <li class="elem-list"><a class="links" href="index.html">Accueil</a></li>
+                <li class="deroulant"><a class="links" href="projets.html">Projets</a>
+                <ul class="sous">
+                    <li><a href="projetsuniv.html">Projets universitaires</a></li>
+                    <li><a href="projetsperso.html">Projets personnels</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="content-figure">
+                <figure>
+                    <img src="images/projets_univ/sae126/Capture d’écran du 2025-06-12 11-03-20.png">
+                    <figcaption>
+                        Figure 1 : Utilisation de l'éditeur IntelliJ Idea pour créer un jeu de plateau.
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="margin_page"></div>
+
+            <div class="content-text">
+                <h3>Commentaire :</h3><br>
+                <p>La Figure 1 est une capture d’écran de l’environnement de développement IntelliJ IDEA, utilisé ici pour programmer une application en Java. Cette application, nommée Orbito++, a été développée dans le cadre d’un projet de groupe, avec pour objectif de concevoir un jeu de plateau à partir de la bibliothèque Java Boardifier, spécialisée dans la création de jeux en 2D.</p>
+                <p>L’organisation du projet est clairement visible dans la colonne de gauche. Elle suit la structure du paradigme MVC, répartie en trois grands dossiers nommés control (Contrôleur = s’occupe des “animations” du jeu), model (Modèle = toutes les données du jeu) et view (Vue = partie visible du jeu), qui reflète une bonne organisation du code selon les différentes responsabilités fonctionnelles du programme.</p>
+                <p>La classe OrbitoStageFactory.java, ouverte dans l’éditeur au centre de la Figure, illustre plusieurs savoirs. On y reconnaît l’usage du langage Java, avec des concepts comme l’héritage de classes (extends StageElementsFactory), la surcharge de méthodes (comme setup() annotée avec @Override), ou encore la manipulation d’attributs privés et statiques. Le code montre aussi la capacité à définir des méthodes d’accès (getters/setters), à instancier des objets, et à organiser l’état interne d’une classe autour de paramètres comme le nombre de lignes ou de colonnes.</p>
+                <p>Cette figure témoigne de la capacité à structurer proprement une application Java, en utilisant des dossiers bien séparés et nommés, ce qui favorise la lisibilité et la maintenance du code. Elle illustre aussi la mise en œuvre d’une classe “usine” (StageFactory) dont le rôle est de créer et configurer les éléments du jeu. Enfin, la méthode setup() montre comment on peut initialiser dynamiquement des éléments de l’interface du jeu, ici en créant un objet TextElement pour afficher le nom du joueur dans la scène de jeu.</p>
+            </div>
+        </div>
+
+        <div class="margin_page"></div>
+        <div class="margin_page"></div>
+        
+    </main>
+</body>
+</html>
