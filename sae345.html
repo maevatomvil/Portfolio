@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projet 2 - SAÉ1.03-04</title>
+    <link rel="stylesheet" href="header_footer.css">
+    <link rel="stylesheet" href="sae345.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poetsen+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="nav-bar">
+            <div class="image">
+                <img src="images/nom.svg" id="icon">
+            </div>
+            <ul class="list">
+                <li class="elem-list"><a class="links" href="index.html">Accueil</a></li>
+                <li class="deroulant"><a class="links" href="projets.html">Projets</a>
+                <ul class="sous">
+                    <li><a href="projetsuniv.html">Projets universitaires</a></li>
+                    <li><a href="projetsperso.html">Projets personnels</a></li>
+                </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="content">
+            <div class="content-figure">
+                <figure>
+                    <img src="images/projets_univ/sae345/Capture d’écran du 2025-06-11 14-43-07.png">
+                    <figcaption>
+                        Figure 1 : Utilisation du framework Flask dans le cadre d'un site d'e-commerce.
+                    </figcaption>
+                </figure>
+            </div>
+
+            <div class="margin_page"></div>
+
+            <div class="content-text">
+                <h3>Commentaire :</h3><br>
+                <p>La Figure 1 est une capture de l’interface de PyCharm, un environnement de développement spécialement dédié au langage Python. Ce projet repose sur le framework Flask qui permet de créer des applications web en python.</p>
+                <p>A gauche de la figure nous pouvons voir l’arborescence, le dossier template pour le frontend (HTML), le dossier static pour tous les styles et le dossier controller pour les fichiers Python et un script SQL, que l’on doit utiliser à chaque fois que l’on fait un projet avec Flask pour pouvoir se retrouver plus facilement.</p>
+                <p>Dans la partie centrale de l’image, plusieurs éléments sont soulignés en rouge. Ils mettent en évidence la maîtrise du langage Python avec l’utilisation du framework Flask, ainsi que l’écriture de requêtes SQL pour interagir avec la base de données. Par exemple, on voit une requête d’insertion (INSERT INTO ...) utilisant la fonction execute() d’un curseur SQL, ainsi que la récupération de données envoyées depuis un formulaire HTML avec “request.form.get()”.</p>
+                <p>Ces éléments illustrent aussi la capacité à écrire un back-end avec Flask, à gérer l’intégrité des données (par des vérifications sur la longueur des commentaires ou l’usage de current_timestamp pour la date actuelle), et à établir un lien fonctionnel avec des templates HTML via la fonction render_template(...), qui permet de transmettre les informations dynamiques à afficher à l’utilisateur.</p>
+            </div>
+        </div>
+
+        <div class="margin_page"></div>
+        <div class="margin_page"></div>
+        
+    </main>
+</body>
+</html>
